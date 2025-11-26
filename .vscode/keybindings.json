@@ -1,0 +1,12 @@
+[
+    {
+        "key": "cmd+b",
+        "command": "workbench.action.terminal.focus",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "cmd+b",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    }
+]
